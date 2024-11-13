@@ -18,4 +18,9 @@ public class GameService {
     public List<GameMinDTO> findAll() {
         return gameRepository.findAll().stream().map(GameMinDTO::new).collect(Collectors.toList());
     }
+
+    public GameMinDTO findById(Long id) {
+        Game entity = gameRepository.getOne(id);
+        return new GameMinDTO(entity);
+    }
 }

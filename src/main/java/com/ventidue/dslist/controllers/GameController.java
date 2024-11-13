@@ -20,4 +20,9 @@ public class GameController {
     public List<GameMinDTO> findAll() {
         return gameService.findAll();
     }
+
+    @GetMapping
+    public GameMinDTO findById(Long id) {
+        return gameService.findById(id);
+    }
 }
