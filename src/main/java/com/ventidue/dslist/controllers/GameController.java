@@ -21,8 +21,5 @@ public class GameController {
         return gameService.findAll();
     }
 
-    @GetMapping
-    public GameMinDTO findById(Long id) {
-        return gameService.findById(id);
-    }
+
 }
