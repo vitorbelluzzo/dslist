@@ -20,7 +20,7 @@ INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 8, 3);
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 9, 4);
 
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 5, 0);
-INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 1);
 
 
 INSERT INTO tb_belonging (list_id, game_id, position) VALUES (3, 2, 0);

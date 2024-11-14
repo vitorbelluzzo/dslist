@@ -1,6 +1,7 @@
 package com.ventidue.dslist.dto;
 
 import com.ventidue.dslist.entities.Game;
+import com.ventidue.dslist.projections.GameMinProjection;
 import jakarta.persistence.Column;
 
 public class GameMinDTO {
@@ -19,6 +20,14 @@ public class GameMinDTO {
         shortDescription = entity.getShortDescription();
         title = entity.getTitle();
         year = entity.getYear();
+    }
+
+    public GameMinDTO(GameMinProjection projection) {
+        id = projection.getId();
+        imgUrl = projection.getImgUrl();
+        shortDescription = projection.getShortDescription();
+        title = projection.getTitle();
+        year = projection.getYear();
     }
 
     public Long getId() {
