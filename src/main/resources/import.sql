@@ -1,6 +1,6 @@
-INSERT INTO tb_game_list (name) VALUES ('Adventure and RPG'); 1
-INSERT INTO tb_game_list (name) VALUES ('Platform and Battle Royale'); 2
-INSERT INTO tb_game_list (name) VALUES ('Action and Simulation'); 3
+INSERT INTO tb_game_list (name) VALUES ('Adventure and RPG');
+INSERT INTO tb_game_list (name) VALUES ('Platform and Battle Royale');
+INSERT INTO tb_game_list (name) VALUES ('Action and Simulation');
 
 INSERT INTO tb_game (title, score, game_year, genre, platform, img_url, short_description, long_description) VALUES ('The Legend of Zelda: Breath of the Wild', 9.4, 2017, 'Adventure', 'Nintendo Switch', 'https://imgs.search.brave.com/lVoRNOqbUW7bTnX8kF4uIAn75LoXshg6DFczeEid5Mo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5qSTBOVEV3/WkRZdFpEaGxPQzAw/TUdNMkxXRmxOR0l0/WTJVMlpXUmtNemsy/T0RJMFhrRXlYa0Zx/Y0djQC5qcGc', 'Open-world action-adventure game.', 'Explore a vast and visually stunning world in this critically acclaimed Zelda game.');
 INSERT INTO tb_game (title, score, game_year, genre, platform, img_url, short_description, long_description) VALUES ('Red Dead Redemption 2', 9.6, 2018, 'Action', 'PlayStation 4, Xbox One, PC', 'https://imgs.search.brave.com/RJ8T3sAbunJt2Lja750UcpL3v3jtLQyPI19LLdszEIE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk56UmhaalJo/TlRBdE1HTTVNUzAw/WVdSa0xXRTBabVF0/WTJNMk1qTTJObU00/TlRJNVhrRXlYa0Zx/Y0djQC5qcGc', 'Epic tale of life in America’s unforgiving heartland.', 'Experience the life of an outlaw in the American West, with a deep story and open-world exploration.');
